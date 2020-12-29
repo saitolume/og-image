@@ -3,6 +3,7 @@
 body {
   font-family: 'Noto Sans JP', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue',
     'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
   margin: 20px;
 }
 
