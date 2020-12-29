@@ -27,6 +27,8 @@ function getCss(theme: string, fontSize: string) {
     radial = 'dimgray'
   }
   return `
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
     @font-face {
         font-family: 'Inter';
         font-style:  normal;
@@ -70,24 +72,6 @@ function getCss(theme: string, fontSize: string) {
         content: '\`';
     }
 
-    .logo-wrapper {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        justify-items: center;
-    }
-
-    .logo {
-        margin: 0 75px;
-    }
-
-    .plus {
-        color: #BBB;
-        font-family: Times New Roman, Verdana;
-        font-size: 100px;
-    }
-
     .spacer {
         margin: 150px;
     }
@@ -100,9 +84,10 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
+        font-weight: bold;
         color: ${foreground};
         line-height: 1.8;
     }`
