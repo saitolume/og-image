@@ -1,4 +1,5 @@
 {
+  "author": "Tadao Iseki <saitoeku3@gmail.com>",
   "private": true,
   "engines": {
     "node": "12.x"
