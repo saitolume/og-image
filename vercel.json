@@ -1,8 +1,4 @@
 {
-  "regions": ["all"],
-  "functions": {
-    "api/**": {}
-  },
   "rewrites": [
     { "source": "/(.+)", "destination": "/api" }
   ]
